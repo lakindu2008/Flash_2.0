@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Flash</title>
+      <link rel="stylesheet" href="style.css">
+      <!--Made By Code Blocks (R.Lakindu Rashmika Perera)-->
+</head>
+<body id="body">
+      <div class="head-row">
+            <div class="profile" id="profile">
+                  <svg class="svg3" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"/></svg>
+            </div>
+            <input type="text" class="search-1" placeholder="Search Enything" onclick="googleSearch();">
+            <div class="settings-open" id="setopen">
+                  <svg class="svg1" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>
+            </div>
+      </div>
+
+      <div class="icon" style="text-align: center;">
+            <img src="./img/fffffffffff.jpeg" alt="icon" class="appicon">
+      </div>
+
+      <h1 id="current-time"></h1>
+
+      <div class="social-media-box" id="socialmediabox">
+            <input type="text" class="search2" placeholder="Search Anything" id="search"/>
+            <div onclick="googleSearch();">
+                  <svg class="svg2" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/></svg>
+            </div>
+            <div class="row1s">
+                        <div class="box">
+                              <a href="https://www.bing.com/ck/a?!&&p=f3b30a19be30e5b7JmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0xMWQ3MjAxOS1jMGZjLTYzZjAtMjY3MS0zM2FlYzFjNDYyZTEmaW5zaWQ9NTE5MQ&ptn=3&hsh=3&fclid=11d72019-c0fc-63f0-2671-33aec1c462e1&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1">
+                                    <img src="./img/facebook.png" alt="" class="social-media">
+                              </a>
+                        </div>
+                        <div class="box">
+                              <a href="https://www.bing.com/ck/a?!&&p=61aa21ed6489a968JmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0xMWQ3MjAxOS1jMGZjLTYzZjAtMjY3MS0zM2FlYzFjNDYyZTEmaW5zaWQ9NTE5Mg&ptn=3&hsh=3&fclid=11d72019-c0fc-63f0-2671-33aec1c462e1&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1">
+                                    <img src="./img/instagram.png" alt="" class="social-media">
+                              </a>
+                        </div>
+                        <div class="box">
+                              <a href="https://www.bing.com/ck/a?!&&p=cc399352e0e85a4eJmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0xMWQ3MjAxOS1jMGZjLTYzZjAtMjY3MS0zM2FlYzFjNDYyZTEmaW5zaWQ9NTE5Ng&ptn=3&hsh=3&fclid=11d72019-c0fc-63f0-2671-33aec1c462e1&psq=youtube&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20v&ntb=1">
+                                    <img src="./img/youtube.png" alt="" class="social-media">
+                              </a>
+                        </div>
+            </div>
+
+            <div class="row1s" style="margin-top: -3%;">
+                        <div class="box">
+                              <a href="https://www.pinterest.com/">
+                                    <img src="./img/pinterest.png" alt="" class="social-media">
+                              </a>
+                        </div>
+                        <div class="box">
+                              <a href="https://www.bing.com/ck/a?!&&p=fa2c7f95bcbcd17fJmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0xMWQ3MjAxOS1jMGZjLTYzZjAtMjY3MS0zM2FlYzFjNDYyZTEmaW5zaWQ9NTE5Nw&ptn=3&hsh=3&fclid=11d72019-c0fc-63f0-2671-33aec1c462e1&psq=twiter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1">
+                                    <img src="./img/twitter.png" alt="" class="social-media">
+                              </a>
+                        </div>
+                        <div class="box">
+                              <a href="https://www.bing.com/ck/a?!&&p=8cd3696a3058da6aJmltdHM9MTY5ODM2NDgwMCZpZ3VpZD0xMWQ3MjAxOS1jMGZjLTYzZjAtMjY3MS0zM2FlYzFjNDYyZTEmaW5zaWQ9NTE5Mg&ptn=3&hsh=3&fclid=11d72019-c0fc-63f0-2671-33aec1c462e1&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&ntb=1">
+                                    <img src="./img/linkedin.png" alt="" class="social-media">
+                              </a>
+                        </div>
+            </div>
+      </div>
+      <a href="./Private Tab/index.html">
+      <div class="whether" id="whether">
+            <svg class="svg6" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M312-240q-51 0-97.5-18T131-311q-48-45-69.5-106.5T40-545q0-78 38-126.5T189-720q14 0 26.5 2.5T241-710l239 89 239-89q13-5 25.5-7.5T771-720q73 0 111 48.5T920-545q0 66-21.5 127.5T829-311q-37 35-83.5 53T648-240q-66 0-112-30l-46-30h-20l-46 30q-46 30-112 30Zm0-80q37 0 69-17.5t59-42.5h80q27 25 59 42.5t69 17.5q36 0 69.5-12.5T777-371q34-34 48.5-80t14.5-94q0-41-17-68.5T769-640q-3 0-22 4L480-536 213-636q-5-2-10.5-3t-11.5-1q-37 0-54 27t-17 68q0 49 14.5 95t49.5 80q26 25 59 37.5t69 12.5Zm49-60q37 0 58-16.5t21-45.5q0-49-64.5-93.5T239-580q-37 0-58 16.5T160-518q0 49 64.5 93.5T361-380Zm-6-60q-38 0-82.5-25T220-516q5-2 11.5-3.5T245-521q38 0 82.5 25.5T380-444q-5 2-11.5 3t-13.5 1Zm244 61q72 0 136.5-45t64.5-94q0-29-20.5-46T721-581q-72 0-136.5 45T520-442q0 29 21 46t58 17Zm6-61q-7 0-13-1t-11-3q8-26 52.5-51t82.5-25q7 0 13 1t11 3q-8 26-52.5 51T605-440Zm-125-40Z"/></svg>
+            <h2 class="text4">Private Browsing</h2>
+      </div>
+      </a>
+
+      <div class="login" id="Login">
+            <div class="close3" id="close3">
+                  <svg class="svg4" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            </div>
+            <img src="./img/fffffffffff.jpeg" width="30%" class="img4">
+            <h2 class="text2">Welcome</h2>
+            <input type="text" name="username" id="username" placeholder="Create Username">
+            <input type="email" id="email" placeholder="Enter Your Email">
+            <input type="password" id="password" placeholder="Create Password"><br>
+            <input type="submit" id="submit" name="Login">
+
+      </div>
+
+      <div class="settings" id="settings">
+            <div class="svg5" id="close">
+                  <svg class="svg5" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            </div>
+            <h2 class="text3">Settings</h2>
+            <div class="set1">
+                  <h2 class="setext1">Thems</h2><br>
+                  <div class="colors">
+                        <div class="color" id="color1" style="background: linear-gradient(90deg, #e63759 0%, #a681fb 100%);"></div>
+                        <div class="color" id="color2" style="background: linear-gradient(90deg, #6715e8 0%, #66e5fe 100%);"></div>
+                        <div class="color" id="color3" style="background: linear-gradient(90deg, #470cfc 0%, #fa54c0 100%);"></div>
+                  </div>
+            </div>
+            <div class="set2">
+                  <h2 class="setext2">Hide Search Bar</h2>
+                  <input type="checkbox" name="checkbox" id="Hide_Social">
+            </div>
+            <div class="set2" style="margin-top: -5%;">
+                  <h2 class="setext2">Show Local Time</h2>
+                  <input type="checkbox" name="checkbox" id="Show_time">
+            </div>
+            <a href="./About/index.html">
+                  <div class="set3">
+                        <button class="btn5">About App</button>
+                  </div>
+            </a>
+      </div>
+
+      <script src="script.js"></script>
+      <script type="module">
+            //fire base Login Data Base
+
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+   import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+   // TODO: Add SDKs for Firebase products that you want to use
+   // https://firebase.google.com/docs/web/setup#available-libraries
+ 
+   // Your web app's Firebase configuration
+   const firebaseConfig = {
+     apiKey: "AIzaSyCoErpOpDsBWPovdbz6O5VW56h439R4c-s",
+     authDomain: "flash-web-browser.firebaseapp.com",
+     projectId: "flash-web-browser",
+     storageBucket: "flash-web-browser.appspot.com",
+     messagingSenderId: "792808484322",
+     appId: "1:792808484322:web:3232da50884de4c2605dbb"
+   };
+ 
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+
+   // Get a reference to the database service
+   const db = getDatabase(app);
+   document.getElementById('submit').addEventListener('click',function(e){
+      set(ref(db, 'user/'+ document.getElementById("username").value),
+      {
+            username:document.getElementById('username').value,
+            email :document.getElementById('email').value,
+            password :document.getElementById('password').value,
+      });
+      alert("login Sucessfull");
+   });
+
+      </script>
+</body>
+</html>
